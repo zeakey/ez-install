@@ -1,0 +1,12 @@
+cython
+easydict
+ipython
+jupyter
+matplotlib
+numpy
+pillow
+protobuf
+pyyaml
+scikit-image
+scipy
+opencv-python

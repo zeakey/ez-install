@@ -1,0 +1,10 @@
+.DS_Store/
+*~
+*.txt
+*.c
+*.cpp
+*.cu
+*.o
+*.tar.gz
+*.tar
+!requirements.txt
