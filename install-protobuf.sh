@@ -16,6 +16,7 @@ sudo ldconfig
 
 # Install Python interface
 echo "Installing protobuf python interface..."
+cd python
 python setup.py build
 python setup.py test
 sudo -H python setup.py install
