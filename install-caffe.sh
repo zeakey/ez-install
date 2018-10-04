@@ -7,7 +7,7 @@ sudo apt-get install -y build-essential cmake make
 sudo apt-get install libboost-all-dev libleveldb-dev  \
                      libsnappy-dev libhdf5-serial-dev \
                      libgflags-dev libgoogle-glog-dev liblmdb-dev \
-                     libatlas-base-dev python-dev
+                     libatlas-base-dev python-dev python3-dev -y
 # install protobuf
 if [[ "$(which protoc)" == '' ]]; then
   echo "Install Protobuf..."
