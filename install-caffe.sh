@@ -37,6 +37,6 @@ sudo -H pip install scikit-image
 # clone latest caffe source code
 cd ~/ && git clone https://github.com/BVLC/caffe --depth 1 && cd caffe
 mkdir build && cd build
-cmake -DCPU_ONLY=ON .. && make -j$(nproc)
+cmake .. -DCPU_ONLY=ON -DCMAKE_CXX_FLAGS=-std=c++11 .. && make -j$(nproc)
 echo "Done! Built caffe source at '~/caffe'"
 
